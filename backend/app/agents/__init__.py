@@ -1,0 +1,167 @@
+# ==========================================
+# GridMind-AI — .gitignore
+# ==========================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.python-version
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# ---------- Environment ----------
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ---------- Node / Frontend ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Build outputs
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Package managers
+.yarn/
+.pnp.*
+.yarn-integrity
+
+# ---------- Database ----------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+database/*.db
+database/*.sqlite3
+
+# ---------- Logs ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- IDE / Editors ----------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ---------- OS ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Misc ----------
+*.bak
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ---------- Secrets ----------
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# ---------- Coverage / Build artifacts ----------
+coverage/
+.nyc_output/
